@@ -1,0 +1,7 @@
+create table member_list (
+    id int primary key auto_increment,
+    name varchar(32) default 'No Name',
+    password char(4) not null
+  );
+
+  insert into member_list (id ,name, password) values (1, 'suzuki', '1111');
